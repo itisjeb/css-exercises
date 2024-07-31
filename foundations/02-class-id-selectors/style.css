@@ -8,9 +8,17 @@
     font-size: 36px;
 }
 
+/* I didn't need to chain these two elements together,
+I could've just had .third-element as is and used it
+in the element styling the same way */
+
 .odd-elements.third-element {
     font-size: 24px;
 }
+
+/* In the solution, they re-used a class on this div
+to adjust the font-size, which I could have done as it
+would have saved me some typing! Next time :-) */
 
 #fourth-element {
     background-color: #6ae46a;
